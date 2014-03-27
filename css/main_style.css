@@ -1,0 +1,14 @@
+body{
+	background-color: #2f4154;
+	color: #1ABC9C;
+}
+.fore{
+	background-color: #394264;
+}
+#json-parsed{
+	display: none;
+}
+#jsonview{
+	background-color: #BDC3C7;
+	color: #FFFFFF;
+}
