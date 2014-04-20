@@ -11,4 +11,9 @@ $(document).ready(function(){
 		});
 		$('#jsonview').jsonView(json);
 	});
+	$('#returnButton').click(function(){
+		$('#json-parsed').slideUp(2000,function(){
+			$('#input-container').slideDown(2000);
+		});
+	});
 });
